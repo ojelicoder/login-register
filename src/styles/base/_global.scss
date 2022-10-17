@@ -1,0 +1,26 @@
+* {
+  &,
+  &:before,
+  &:after {
+    box-sizing: inherit;
+  }
+}
+
+html,
+body {
+  font-size: $font-size;
+  color: map-get($colors, brilliance);
+}
+
+html {
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  height: -webkit-fill-available;
+}
+
+body {
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: map-get($colors, total-eclipse);
+}

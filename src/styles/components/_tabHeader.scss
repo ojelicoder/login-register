@@ -1,0 +1,31 @@
+.tab-header {
+  color: map-get($colors, beautiful-darkness);
+  @include flex(null, space-between);
+  margin-bottom: 2.8rem;
+  border-bottom: 0.1rem solid map-get($colors, flint-shard);
+  font-size: 1.6rem;
+
+  &_btn {
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    color: map-get($colors, beautiful-darkness);
+    font-size: 1.6rem;
+    padding-bottom: 1rem;
+
+    &_primary {
+      &.selected {
+        border-bottom: 0.1rem solid map-get($colors, biology-experiments);
+        color: map-get($colors, biology-experiments);
+      }
+    }
+    &_secondary {
+      &.selected {
+        border-bottom: 0.1rem solid map-get($colors, paradise-pink);
+        color: map-get($colors, paradise-pink);
+      }
+    }
+  }
+}

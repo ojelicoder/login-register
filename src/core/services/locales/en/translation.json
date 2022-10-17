@@ -1,0 +1,28 @@
+{
+  "general": {
+    "login": "Login",
+    "register": "Register",
+    "error": "Please empty the fields!",
+    "localization": {
+      "tr": "tr",
+      "en": "en"
+    },
+    "message": {
+      "toaster": {
+        "login": {
+          "success": "User logged in",
+          "error": "User not found! Try again!"
+        },
+        "register": {
+          "success": "User registered.",
+          "error": "You have entered incomplete or incorrectly! Try again!"
+        }
+      }
+    }
+  },
+  "user": {
+    "email": "E-mail address",
+    "password": "Password",
+    "fullName": "Name Surname"
+  }
+}

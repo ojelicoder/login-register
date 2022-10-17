@@ -1,0 +1,28 @@
+{
+  "general": {
+    "login": "Giriş Yap",
+    "register": "Üye ol",
+    "error": "Lütfen alanları boş bırakmayın!",
+    "localization": {
+      "tr": "tr",
+      "en": "en"
+    },
+    "message": {
+      "toaster": {
+        "login": {
+          "success": "Kullanıcı girişi yapıldı.",
+          "error": "Kullanıcı bulunamadı! Tekrar deneyin!"
+        },
+        "register": {
+          "success": "Kullanıcı kaydı yapıldı.",
+          "error": "Eksik veya hatalı giriş yaptınız! Tekrar deneyin!"
+        }
+      }
+    }
+  },
+  "user": {
+    "email": "E-Posta Adresiniz",
+    "password": "Parolanız",
+    "fullName": "Adınız Soyadınız"
+  }
+}

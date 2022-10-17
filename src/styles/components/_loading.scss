@@ -1,0 +1,59 @@
+.loader-wrapper {
+  width: 100%;
+  height: 100%;
+  @include flex(center, center);
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  svg {
+    position: relative;
+    width: 15rem;
+    height: 15rem;
+    animation: rotate 2s linear infinite;
+
+    circle {
+      width: 100%;
+      height: 100%;
+      fill: none;
+      stroke-width: 10;
+      stroke-linecap: round;
+      transform: translate(0.5rem, 0.5rem);
+      stroke-dasharray: 440;
+      stroke-dashoffset: 440;
+      animation: animate 4s linear infinite;
+
+      &.primary {
+        stroke: map-get($colors, biology-experiments);
+      }
+      &.secondary {
+        stroke: map-get($colors, paradise-pink);
+      }
+    }
+  }
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    stroke-dashoffset: 440;
+  }
+
+  50% {
+    stroke-dashoffset: 0;
+  }
+
+  50.1% {
+    stroke-dashoffset: 880;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

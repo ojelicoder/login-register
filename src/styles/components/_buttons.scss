@@ -1,0 +1,22 @@
+.btn {
+  font-size: 1.6rem;
+  margin-top: 2.5rem;
+  width: 100%;
+  border: 0;
+  border-radius: 0.2rem;
+  color: map-get($colors, pale-gray);
+  height: 4.6rem;
+  cursor: pointer;
+
+  &-primary {
+    background-color: map-get($colors, biology-experiments);
+  }
+
+  &-secondary {
+    background-color: map-get($colors, paradise-pink);
+  }
+
+  &-light {
+    background-color: map-get($colors, noble-black);
+  }
+}

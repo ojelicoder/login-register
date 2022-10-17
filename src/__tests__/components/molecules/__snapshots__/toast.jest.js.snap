@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Toast renders correctly 1`] = `
+<div
+  className="toast"
+>
+  <div
+    className="toast-error"
+  >
+    <div
+      className="toast_content"
+    />
+  </div>
+</div>
+`;
