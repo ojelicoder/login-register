@@ -2,7 +2,6 @@
   color: map-get($colors, beautiful-darkness);
   @include flex(null, space-between);
   margin-bottom: 2.8rem;
-  border-bottom: 0.1rem solid map-get($colors, flint-shard);
   font-size: 1.6rem;
 
   &_btn {
@@ -11,6 +10,7 @@
     cursor: pointer;
     background-color: transparent;
     border: 0;
+    border-bottom: 0.1rem solid map-get($colors, flint-shard);
     color: map-get($colors, beautiful-darkness);
     font-size: 1.6rem;
     padding-bottom: 1rem;
